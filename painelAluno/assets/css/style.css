@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#dia {
+    background-color: var(--terciari-color);
+}
+
+#atividade {
+    background-color: var(--activity-color);
+}
+
+#faltas {
+    background-color: var(--lack-color);
+}
+
+#secretaria {
+    background-color: var(--secretary-color);
+}
+
+#turma {
+    background-color: var(--class-color);
+}
+
+.ativo {
+    background-color: #555;
+}
+
+/* header */
+#header-container {
+    background-color: #4B4B4B;
+}
+
+#user-container {
+    margin-right: 8px;
+}
+
+#logoh1 {
+    font-size: 2.1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+#logoimg {
+    width: 45px;
+    height: 45px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#logo {
+    padding-left: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#user-container ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+#user-container ul li:last-child {
+    border: none;
+}
+
+/* container principal */
+#main-container {
+    display: flex;
+    height: 100%;
+}
+
+/* Estilo para a seção lateral */
+section {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+section p {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+/* Estilo para a lista ordenada */
+section ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para os itens da lista */
+section ol li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+}
+
+section ol li:hover {
+    background-color: #555;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    flex-grow: 1;
+    background-color: var(--background-color);
+}
+
+/* Estilo para o div dentro do main */
+#container {
+    height: 100%;
+}
+
+.icone {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+
+/* Views */
+
+
+/* Notas */
+#nota-container {
+    padding-top: 10px;
+    color: var(--title-color);
+}
+
+#nota-container h3 {
+    margin-bottom: 0;
+}
+
+#curso-container {
+    padding-bottom: 8px;
+    padding-left: 12px;
+    color: var(--title-color);
+}
